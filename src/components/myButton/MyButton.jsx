@@ -1,10 +1,13 @@
-
-
 import "./myButton.css";
 
-function MyButton({ myType, text }) {
+const handleDefaultClick = () => {
+  console.log("default click!");
+  
+} 
+
+function MyButton({ func = handleDefaultClick, myType, text, className={className}}) {
   return (
-    <button type={myType}>
+    <button type={myType} onClick={func} className="my-button">
       {text}
     </button>
   );

@@ -1,16 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./app/App";
 import "./index.css";
-import LoginForm from "./components/loginForm/LoginForm";
-
-
+import Hw004 from "./homeworks/hw04/Hw004";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-    {/* <App /> */}
-    {/* <Hw02/> */}
-    <LoginForm/>
-    
+    <Hw004/>
   </>
 );
