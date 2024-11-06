@@ -2,6 +2,7 @@
 .login-form {
     background-color: #000000; 
     padding: 40px;
+    padding-top: 5px;
     border-radius: 8px;
     box-shadow: 0 0 25px 15px rgba(255, 0, 0, 0.5), 
               0 0 50px 30px rgba(255, 0, 0, 0.2); 
@@ -10,6 +11,10 @@
 
   }
   
+  .login-form img {
+    width: 300px;
+  }
+
   .login-form label {
     display: block;
     color: #aa9898;

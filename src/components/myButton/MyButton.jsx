@@ -2,9 +2,9 @@
 
 import "./myButton.css";
 
-function MyButton({ type, text }) {
+function MyButton({ myType, text }) {
   return (
-    <button type={type}>
+    <button type={myType}>
       {text}
     </button>
   );
